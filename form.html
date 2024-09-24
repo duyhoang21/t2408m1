@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            width: 960px;
+            font-family: Arial, Verdana, sans-serif;
+            color: #665544;
+            background-color: aliceblue;
+        }
+
+        .column1of2 {
+            width: 620px;
+            float: left;
+            margin: 10px;
+        }
+
+        .column2of2 {
+            width: 300px;
+            float: left;
+            margin: 10px;
+        }
+
+        .formrequired  {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<h1>The Evolution of the FORM</h1>
+<div class="column1of2">
+    <form action="process.html">
+        <h3>The form</h3>
+        First name: <span class="formrequired">*</span>
+        <br>
+        <input type="text" name="fname" placeholder="John" required autofocus>
+        <br>
+        Last name: <span class="formrequired">*</span>
+        <br>
+        <input type="text" placeholder="Smith" required>
+        <br>
+        Email
+        <br>
+        <input type="email" required>
+        <br>
+        Username
+        <br>
+        <input type="text">
+        <br>
+        Password
+        <br>
+        <input type="password">
+        <br>
+        Birth date
+        <br>
+        <input type="date">
+        <br>
+        Phone number
+        <br>
+        <input type="number" placeholder="0912345678">
+        <br>
+        <input type="radio" name="gender" value="Male" checked>Male
+        <input type="radio" name="gender" value="Female">Female
+        <br>
+        Upload CV
+        <br>
+        <input type="file">
+        <br>
+        Choose one <br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <br>
+        How did you hear about us
+        <br>
+        <select name="survey" id="survey">
+            <option value="">Google</option>
+            <option value="">TV</option>
+            <option value="">Social network</option>
+        </select>
+        <br>
+        Notes
+        <br>
+        <textarea name="" id="" cols="60" rows="10"></textarea>
+        <p></p>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div class="column2of2">
+    <h3>Bicycle Timeline</h3>
+    <ul>
+        <li><a href="">1817: Draisienne</a></li>
+        <li><a href="">1865: Velocipede</a></li>
+        <li>1870: High-wheel bicycle</li>
+        <li>1876: High-wheel safety</li>
+        <li>1885: Hard-tired safety</li>
+        <li>1888: Pneumatic safety</li>
+    </ul>
+</div>
+</body>
+</html>
